@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ai-news-fetcher"
+version = "0.1.0"
+description = "AI News Fetcher using CrewAI Framework"
+authors = ["Shireen <shireenlowyk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ai_news_fetcher", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai-tools = ">=0.17.0"
+python-dotenv = "^1.0.0"
+crewai = "^0.86.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry-core.backend"
