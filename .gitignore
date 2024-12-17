@@ -19,3 +19,5 @@ ENV/
 *.egg-info/
 dist/
 build/
+
+news_report.md

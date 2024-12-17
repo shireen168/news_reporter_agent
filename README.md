@@ -1,13 +1,13 @@
-# AI News Fetcher
+# News Reporter Agent
 
 ## Description
-This project is an AI News Fetcher that utilizes the CrewAI framework to fetch and compile news articles based on user-defined topics.
+This project is a News Reporter Agent that utilizes the CrewAI framework to fetch and compile news articles based on user-defined topics.
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/news_reporter_agent.git
+   git clone https://github.com/shireen168/news_reporter_agent.git
    cd news_reporter_agent
    ```
 
