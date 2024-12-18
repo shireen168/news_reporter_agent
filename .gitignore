@@ -20,4 +20,6 @@ ENV/
 dist/
 build/
 
-news_report.md
+# Ignore reports folder
+reports/
+
