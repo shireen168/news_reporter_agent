@@ -1,16 +1,17 @@
 [tool.poetry]
-name = "ai-news-fetcher"
+name = "news_reporter"
 version = "0.1.0"
-description = "AI News Fetcher using CrewAI Framework"
+description = "News Reporter using CrewAI Framework"
 authors = ["Shireen <shireenlowyk@gmail.com>"]
 readme = "README.md"
-packages = [{include = "ai_news_fetcher", from = "src"}]
+packages = [{include = "news_reporter", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
 crewai-tools = ">=0.17.0"
 python-dotenv = "^1.0.0"
 crewai = "^0.86.0"
+streamlit = "^1.41.1"
 
 [build-system]
 requires = ["poetry-core"]
